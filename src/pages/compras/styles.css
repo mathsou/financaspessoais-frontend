@@ -1,0 +1,74 @@
+.compras-container {
+    width: 100%;
+    height: 100%;
+}
+.compras-container main section {
+    margin-bottom: 20px;
+}
+
+.compras-container main section .btnCompra {
+    background: rgb(224, 224, 224);
+    border: 0;
+    color: #000000;
+    font-weight: 400;
+    margin: 8px 15px 8px auto;
+    padding: 0 10px 0 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 30px;
+    border-radius: 10px;
+    transition: filter .2s;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .35) ;
+    
+}
+.compras-container main section .table {
+    background: #C4C4C4;
+    width: 100%;
+    
+}
+
+.compras-container main section .table table {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    margin: auto;
+    
+    
+    
+    
+    
+}
+.compras-container main section .table table #cabecalho td {
+    font-size: 14px;
+    padding-bottom: 10px;
+    font-weight: 700; 
+}
+
+.compras-container main section .table table:first-child {
+    padding-top: 20px;
+     
+}
+
+.compras-container main section .table table tr td {
+    width: 400px;
+    font-size: 14px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.compras-container main section .table table tr td + td + td + td + td + td + td + td {
+    text-align: left;
+}
+
+.compras-container main section .table table tr td button {
+
+    background-color: #C4C4C4;
+    border: 0;
+    transition: .2s;
+    
+}
+
+.compras-container main section .table table tr td button:hover {
+    opacity: .6;
+}

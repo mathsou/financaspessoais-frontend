@@ -1,0 +1,104 @@
+header {
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+header h1 {
+    margin-right: 20%;
+    margin-left: 25%;
+    font-weight: 400;
+
+    
+}
+
+header img#logo {
+    max-width: 100px;
+    width: auto;
+    height: auto;
+    
+}
+
+header button img.user {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    max-height: 80px;
+    width: auto;
+    height: auto;
+    float: right;
+    margin-left: auto;
+    margin-right: 35px;
+    border: none;
+
+}
+
+.unvisible {
+    background-color: transparent;
+    border: none;
+    
+}
+
+.box {
+    position: absolute;
+    width: 150px;
+    top: 0;
+    right: 0;
+    padding-top: 15px;
+    background-color: rgba(17, 51, 101, 1);
+    text-align: center;
+
+}
+.box h1{
+    margin: 0;
+    font-size: 20px;
+    color: #000;
+}
+
+.box h2{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.box ul {
+    list-style: none;
+}
+.box ul li{
+    color: #fff;
+    margin: 0 10px 10px 10px;
+    
+    
+}
+
+.box ul li a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+}
+
+.box ul li a svg {
+    margin-right: 5px;
+}
+
+.box ul li p {
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+}
+
+
+.box p {
+    color: #fff;
+}
+.box img {
+    max-height: 80px;
+    width: auto;
+    height: auto;
+}

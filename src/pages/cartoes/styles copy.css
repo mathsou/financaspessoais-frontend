@@ -1,0 +1,131 @@
+.cartoes-container {
+    height: 100%;
+    width: 100%;
+}
+
+.cartoes-container main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #C4C4C4;
+    border-radius: 10px;
+}
+
+.cartoes-container main section .cartoes {
+    height: 100vh;
+}
+
+.cartoes-container main section .cartoes ul{
+    height: 100vh;
+}
+
+section h1 {
+    color: #000;
+}
+
+section h1 {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+section .bot {
+    width: 100%;
+}
+
+section .cartoes {
+    min-height: 700px;
+    text-align: center;
+    
+}
+
+section .bot .button {
+    max-width: 250px;
+    height: 40px;
+    line-height: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+section .cartoes ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+
+
+}
+
+section .cartoes ul li {
+    color: #fff;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 1) ;
+    padding: 24px;
+    margin: 40px 20px;
+    border-radius: 8px;
+    position: relative;    
+}
+
+section .cartoes ul li {
+    width:  360px;
+    height: 200px;
+    text-align: center;
+}
+
+section .cartoes ul li h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+section .cartoes ul li p {
+    margin-top: 5px;
+}
+
+section .cartoes ul li .fatura {
+    font-size: 11px;
+   text-align: right;
+   margin-top: 40px;
+   
+}
+
+section .cartoes ul li .descricao {
+    font-size: 11px;
+   text-align: left;
+   float: left;
+   margin-top: 52px;
+   
+}
+
+
+section .cartoes ul li .trash {
+    background-color: var(--bg-color);
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    border: 0;
+    transition: .2s;
+}
+
+section .cartoes ul li .pencil {
+    background-color: var(--bg-color);
+    position: absolute;
+    right: 48px;
+    top: 24px;
+    border: 0;
+    transition: .2s;
+}
+
+section .cartoes ul li button:hover {
+    opacity: 0.8;
+}
+
+section .cartoes ul li a:hover {
+    opacity: 0.8;
+}

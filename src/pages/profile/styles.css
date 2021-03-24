@@ -1,0 +1,80 @@
+.profile-container {
+    width: 100%;
+    height: 100%;
+}
+.profile-container section {
+    margin-bottom: 20px;
+    position: static;
+}
+.profile-container section .filter {
+    background: #565656;
+    color: #fff;
+    display: flex;
+    width: 100%;
+}
+
+.profile-container section .filter select {
+    margin: 12px;
+    margin-right: 100px;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+}
+
+.profile-container section .filter p {
+    margin: 12px;
+    font-size: 18px;
+}
+
+.profile-container section .table {
+
+    margin-right: 100px;
+    position: static;
+}
+
+.profile-container section .table {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-container section .table .setas{
+    margin-top: 20px;
+}
+
+.profile-container section .table .setas svg{
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: .2s;
+}
+
+.profile-container section .table .setas svg:hover{
+    opacity: .6;
+}
+
+.profile-container section .table table {
+    margin-top: 20px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    position: static;
+    
+    
+}
+
+.profile-container section .table table thead tr td {
+    color: #220E9E;
+    font-size: 20px;
+    padding: 10px 7px 10px 7px;
+}
+.profile-container section .table table tbody {
+    font-size: 20px;
+    
+    font-family: Roboto, sans-serif;
+    align-items: center;
+    position: static;
+}
+
+.profile-container section .table table tbody tr td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

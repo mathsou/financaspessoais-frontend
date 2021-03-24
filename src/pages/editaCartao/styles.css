@@ -1,0 +1,176 @@
+:root {
+    --cor: #FF0000;
+    --corRed: #FF0000;
+    --corYellow: #FFFF00;
+    --corGreen: #00FF00;
+    --corCyan: #00FFFF;
+    --corBlue: #0000FF;
+    --corPink: #FF00FF;
+}
+.editaCard-container {
+    height: 100%;
+}
+
+.editaCard-container main section {
+    margin-top: 50px;
+    background: #C4C4C4;
+    border-radius: 20px;
+    max-height: 700px;
+
+    
+}
+
+.editaCard-container main section .editaCartao form {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.editaCard-container main section .editaCartao form .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 80px;
+
+}
+
+.editaCard-container main section .editaCartao form input, select {
+    max-width: 400px;
+    margin: 5px;
+
+}
+.editaCard-container main section .editaCartao form select {
+    width: 100%;
+    height: 60px;
+    color: #333333;
+    border: 1px solid #dcdce6;
+    border-radius: 8px 8px 0 0;
+    margin-top: 10px;
+    padding: 0 24px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25) ;
+    font-size: 16px;
+    color: rgb(97, 95, 95);
+}
+
+#color {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2e2626;
+}
+
+.editaCard-container main section .editaCartao form .form #cor {
+    margin: 10px;
+    -webkit-appearance: none;
+    height: 10px;
+    width: 600px;
+    background: linear-gradient(to right, #FF0000 6%,  #FFFF00, #00FF00, #00FFFF, #0000FF,  #FF00FF, #FF0000 94%);
+}
+
+#brilho {
+    -webkit-appearance: none;
+    margin-bottom: 20px;
+    height: 10px;
+    width: 600px;
+    background: linear-gradient(to right, black,var(--cor), white);
+}
+.editaCard-container main section .editaCartao form .form #cor::-moz-range-thumb{
+    background: var(--cor);
+    cursor: pointer;
+}
+
+.editaCard-container main section .editaCartao form .form #brilho::-moz-range-thumb{
+    background: var(--corBrilho);
+    cursor: pointer;
+}
+
+.editaCard-container main section .editaCartao form .form #cor::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #afafaf;
+    background: var(--cor);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.editaCard-container main section .editaCartao form .form #brilho::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #afafaf;
+    background: var(--corBrilho);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.editaCard-container main section .editaCartao #cartao {
+    color: rgb(200, 200, 200);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 1) ;
+    padding: 24px;
+    margin: 40px 20px;
+    border-radius: 8px;
+    position: relative;    
+
+}
+
+.editaCard-container main section .editaCartao #cartao {
+    width:  360px;
+    height: 200px;
+    text-align: center;
+}
+
+.editaCard-container main section .editaCartao #cartao h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.editaCard-container main section .editaCartao #cartao p {
+    margin-top: 5px;
+}
+
+.editaCard-container main section .editaCartao #cartao .fatura {
+    font-size: 11px;
+   text-align: right;
+   margin-top: 40px;
+   
+}
+
+.editaCard-container main section .editaCartao #cartao .descricao {
+    font-size: 11px;
+   text-align: left;
+   float: left;
+   margin-top: 52px;
+   
+}
+
+
+.editaCard-container main section .editaCartao #cartao .trash {
+    background-color: var(--bg-color);
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    border: 0;
+    transition: .2s;
+}
+
+.editaCard-container main section .editaCartao #cartao .pencil {
+    background-color: var(--bg-color);
+    position: absolute;
+    right: 48px;
+    top: 24px;
+    border: 0;
+    transition: .2s;
+}
+
+.editaCard-container main section .editaCartao #cartao button:hover {
+    opacity: 0.8;
+}
