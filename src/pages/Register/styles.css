@@ -1,0 +1,131 @@
+.register-container {
+    margin: 100px;
+    background: #ffffff;
+    border-radius: 20px;
+    min-width: 850px;
+}
+
+.register-container .content {
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.register-container .content .logo {
+    margin-right: 80px;
+}
+
+.register-container .content .logo a {
+    display: flex;
+    align-items: center;
+    color: #336EC6;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: opacity .2s;
+    
+}
+
+.register-container .content .logo a svg {
+    margin-right: 8px;
+    margin-left: 30%;
+}
+
+.register-container .content .logo a:hover {
+    opacity: 0.8;
+}
+
+.register-container .form {
+    margin-right: 80px;
+}
+.register-container .form form {
+    max-width: 400px;
+}
+.register-container .form form input, .button {
+    min-width: 200px;
+    max-width: 400px;
+    float: right;
+    margin-bottom: 5px;
+}
+
+
+.register-container .form form #nome {
+    margin-top: 40px;
+
+}
+
+.register-container .form form #sBruto {
+    margin-top: 40px;
+}
+
+.register-container .form form #msgUserErrado {
+    color: #ff0000;
+    margin-left: 20px;
+}
+.register-container .form form #msgUserInvalido {
+    color: #ff0000;
+    margin-left: 20px;
+}
+.register-container .form form #msgUserCerto {
+    color: #009900;
+    margin-left: 20px;
+}
+
+.register-container .form form #eyeOffSenha {
+    position: absolute;
+    top: 462px;
+    right: 200px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.register-container .form form #eyeSenha:hover {
+    opacity: .8;
+}
+
+.register-container .form form #eyeSenha {
+    position: absolute;
+    top: 462px;
+    right: 200px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.register-container .form form #eyeOffSenha:hover {
+    opacity: .8;
+}
+
+
+/* ------------------------------------------ */
+.register-container .form form #eyeOffRSenha {
+    position: absolute;
+    top: 538px;
+    right: 200px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.register-container .form form #eyeRSenha:hover {
+    opacity: .8;
+}
+
+.register-container .form form #eyeRSenha {
+    position: absolute;
+    top: 538px;
+    right: 200px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.register-container .form form #eyeOffRSenha:hover {
+    opacity: .8;
+}
+
+.register-container .form form #msgSenha {
+    color: #ff0000;
+    margin-left: 20px;
+}
+
+
+
