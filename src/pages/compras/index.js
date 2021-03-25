@@ -12,6 +12,9 @@ import { Link } from 'react-router-dom';
 
 export default function Compras() {
     const [compras, setCompras] = useState([]);
+   
+        console.log(compras)
+ 
 
     useEffect(() => {
         api.get('compras')
@@ -33,7 +36,7 @@ export default function Compras() {
     function formataData(data){
         var ano = data.slice(0, 4);
         var mes = data.slice(5, 7);
-        var dia = data.slice(8);
+        var dia = data.slice(8, 10);
         data = dia+'/'+mes+'/'+ano;
         return data;
     }

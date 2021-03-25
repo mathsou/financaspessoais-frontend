@@ -22,6 +22,8 @@ export default function Cartoes(){
 
     const [lojas, setLojas] = useState([]);
     const [cartoes, setCartoes] = useState([]);
+
+    console.log(dataCompra)
     
     useEffect(() => {
         api.get('loja').then(response => {
